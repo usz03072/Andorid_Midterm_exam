@@ -50,4 +50,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnRecyclerView2" />
+
+    <Button
+        android:id="@+id/btnRecyclerView4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:onClick="btnRecyclerView4_clicked"
+        android:text="Exam3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRecyclerView3" />
 </androidx.constraintlayout.widget.ConstraintLayout>

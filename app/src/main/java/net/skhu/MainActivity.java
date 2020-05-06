@@ -25,4 +25,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, RecyclerView3Activity.class);
         startActivity(intent);
     }
+
+    public void btnRecyclerView4_clicked(View view) {
+        Intent intent = new Intent(this, RecyclerView3Activity.class);
+        startActivity(intent);
+    }
 }
